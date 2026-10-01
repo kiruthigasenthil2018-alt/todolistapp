@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "TaskMaster",
+    "slug": "taskmaster",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#126EED"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png",
+      "name": "TaskMaster",
+      "shortName": "TaskMaster",
+      "output": "single"
+    }
+  }
+}
